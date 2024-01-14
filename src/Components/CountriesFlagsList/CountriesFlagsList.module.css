@@ -1,0 +1,16 @@
+.flagsDiv {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.imgLink {
+    max-width: 50%;
+}
+
+.flagSelectedCurrency {
+    height: 120px;
+    box-sizing: border-box;
+    display: block;
+}

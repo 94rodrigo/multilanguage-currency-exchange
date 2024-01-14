@@ -1,0 +1,32 @@
+[
+    {
+        "language": "pt",
+        "country": "br",
+        "countryName": "Brazil",
+        "languageName": "Português"
+    },
+    {
+        "language": "de",
+        "country": "de",
+        "countryName": "Germany",
+        "languageName": "Deutsch"
+    },
+    {
+        "language": "es",
+        "country": "es",
+        "countryName": "Spain",
+        "languageName": "Español"
+    },
+    {
+        "language": "fr",
+        "country": "fr",
+        "countryName": "France",
+        "languageName": "Français"
+    },
+    {
+        "language": "en",
+        "country": "gb",
+        "countryName": "United Kingdom",
+        "languageName": "English"
+    }
+]
