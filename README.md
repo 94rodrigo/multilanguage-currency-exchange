@@ -1,70 +1,72 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Multilingual currency converter
 
-## Available Scripts
+This is a project is a multilingual currency converter, developed using React.js.
+## Autors
 
-In the project directory, you can run:
+- [@94rodrigo](https://github.com/94rodrigo)
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Running locally
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+You can run this project locally as a basic React.
 
-### `npm test`
+Clone this project:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+  git clone https://github.com/94rodrigo/multilingual-currency-exchange.git
+```
 
-### `npm run build`
+Enter in the project directory:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+  cd multilingual-currency-exchange
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Install the dependencies:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+  npm install
+```
 
-### `npm run eject`
+Run the project:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+  npm start
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Demonstration
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Example of this application in use:
+![Currencyconverter-Google-Chrome2024-01-2219-34-45-ezgif-com-video-to-gif-converter.gif](https://i.postimg.cc/ryQjyC6g/Currencyconverter-Google-Chrome2024-01-2219-34-45-ezgif-com-video-to-gif-converter.gif)
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Screenshots
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Start page:
+![Start page](https://i.postimg.cc/jsF7ZgHz/Captura-de-tela-2024-01-22-193920.jpg)
 
-### Code Splitting
+Language selector:
+![Language selector](https://i.postimg.cc/y8rkpxZV/Captura-de-tela-2024-01-22-193854.jpg)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+When a currency is selected, the flag of the countries that use it appears:
+![Currency selected](https://i.postimg.cc/NFYM2rWx/Captura-de-tela-2024-01-22-193927.jpg)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+## Used dependencies and resources
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+[currency-api](https://github.com/fawazahmed0/currency-api)
 
-### Advanced Configuration
+[react-world-flags](https://github.com/smucode/react-world-flags)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+[i18next](https://react.i18next.com/)
 
-### Deployment
+[React bootstrap](https://react-bootstrap.netlify.app/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+[react-markdown](https://github.com/remarkjs/react-markdown)
 
-### `npm run build` fails to minify
+[react-router-dom](https://reactrouter.com/en/main)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[react-select](https://react-select.com)
