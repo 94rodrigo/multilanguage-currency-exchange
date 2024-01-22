@@ -1,15 +1,15 @@
 [
     {
-        "language": "pt",
-        "country": "br",
-        "countryName": "Brazil",
-        "languageName": "Português"
-    },
-    {
         "language": "de",
         "country": "de",
         "countryName": "Germany",
         "languageName": "Deutsch"
+    },
+    {
+        "language": "en",
+        "country": "gb",
+        "countryName": "United Kingdom",
+        "languageName": "English"
     },
     {
         "language": "es",
@@ -24,9 +24,10 @@
         "languageName": "Français"
     },
     {
-        "language": "en",
-        "country": "gb",
-        "countryName": "United Kingdom",
-        "languageName": "English"
+        "language": "pt",
+        "country": "br",
+        "countryName": "Brazil",
+        "languageName": "Português"
     }
+    
 ]

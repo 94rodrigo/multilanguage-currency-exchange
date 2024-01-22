@@ -1,10 +1,9 @@
-import countries from "../../Countries/contries.json";
+import countries from "../../Json/contries.json";
 import { Dropdown, DropdownButton } from "react-bootstrap";
 import styles from './SelectLanguages.module.css';
 
 export default function SelectLanguages() {
     //const countriesOptions = countries.map(c => getSelectPbject(c));
-    console.log(countries);
     //{countries.map(c => <DropdownItem href="#" id={c.country} key={c.country}>{c.language}</DropdownItem>)}
     //<img src={c.flag} alt={c.name} />
     return (

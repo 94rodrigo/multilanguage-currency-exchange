@@ -2,7 +2,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import countries from "../../Countries/contries.json";
+import countries from "../../Json/contries.json";
 import styles from "./CollapsibleNavbar.module.css";
 import { useTranslation } from 'react-i18next';
 import React from 'react';
@@ -22,6 +22,8 @@ export default function CollapsibleNavbar() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
+            <Nav.Link href="/">{t("homePage")}</Nav.Link>
+            <Nav.Link href="/about">{t("about")}</Nav.Link>
           </Nav>
           <Nav>
             <NavDropdown title={t("selectLanguage")} id="dropdown-select-language">

@@ -1,0 +1,23 @@
+.labelSelect {
+    padding: 10px 0;
+    color: #FAF0E6;
+    font-size: 1.7rem;
+    font-weight: 500;
+}
+
+.currencyCombo {
+    padding-bottom: 15px;
+    width: 100%;
+}
+
+.icnSwapCurrency {
+    height: 38px;
+    background-color: #FAF0E6;
+    border-radius: 0 0.5rem 0.5rem 0;
+}
+
+.icnSwapCurrency:hover {
+    transform: scale(1.1);
+    transition: 0.25s;
+    cursor: pointer;
+}

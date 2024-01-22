@@ -919,12 +919,12 @@
 	},
 	"TOP": {
 		"symbol": "T$",
-		"name": "Tongan Paʻanga",
+		"name": "Tongan Pa'anga",
 		"symbol_native": "T$",
 		"decimal_digits": 2,
 		"rounding": 0,
 		"code": "TOP",
-		"name_plural": "Tongan paʻanga"
+		"name_plural": "Tongan pa'anga"
 	},
 	"TRY": {
 		"symbol": "TL",

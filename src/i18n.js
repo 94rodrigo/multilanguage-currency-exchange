@@ -1,6 +1,7 @@
 import i18n from "i18next";
 import i18nextHttpBackend from "i18next-http-backend";
 import { initReactI18next } from "react-i18next";
+import textsAbout from "./pages/About/texts"
 
 i18n
     .use(i18nextHttpBackend)
@@ -18,6 +19,12 @@ i18n
                     chooseCurrency: 'Choose a currency',
                     convertTo: 'Convert to',
                     select: 'Select',
+                    usedIn: 'Used in',
+                    value: 'Value',
+                    homePage: 'Home',
+                    about: 'About',
+                    developedBy: 'Developed by',
+                    textAboutPage: textsAbout.en.paragraph,
                 }
             },
             de: {
@@ -27,24 +34,42 @@ i18n
                     chooseCurrency: 'Währung auswählen',
                     convertTo: 'Konvertieren zu',
                     select: 'Auswählen',
+                    usedIn: 'Verwendet in',
+                    value: 'Wert',
+                    homePage: 'Startseite',
+                    about: 'Über',
+                    developedBy: 'Entwickelt von',
+                    textAboutPage: textsAbout.de.paragraph,
                 }
             },
             es: {
                 translation: {
-                    selectLanguage: 'Seleccionar idioma',
+                    selectLanguage: 'Elegir idioma',
                     currencyConverter: 'Conversor de divisas',
                     chooseCurrency: 'Escoja una divisa',
                     convertTo: 'Convertir a',
                     select: 'Seleccionar',
+                    usedIn: 'Usado en',
+                    value: 'Valor',
+                    homePage: 'Inicio',
+                    about: 'Acerca',
+                    developedBy: 'Desarrollado por',
+                    textAboutPage: textsAbout.es.paragraph,
                 }
             },
             fr: {
                 translation: {
-                    selectLanguage: 'Sélectionner la langue',
+                    selectLanguage: 'Choisir la langue',
                     currencyConverter: 'Convertisseur de devises',
                     chooseCurrency: 'Choisissez une devise',
                     convertTo: 'Convertir en',
                     select: 'Sélectionner',
+                    usedIn: 'Utilisé au/en',
+                    value: 'Valeur',
+                    homePage: 'Accueil',
+                    about: 'À propos',
+                    developedBy: 'Développé par',
+                    textAboutPage: textsAbout.fr.paragraph,
                 }
             },
             pt: {
@@ -54,6 +79,12 @@ i18n
                     chooseCurrency: 'Escolha uma moeda',
                     convertTo: 'Converter para',
                     select: 'Selecionar',
+                    usedIn: 'Utilizado em',
+                    value: 'Valor',
+                    homePage: 'Início',
+                    about: 'Sobre',
+                    developedBy: 'Desenvolvido por',
+                    textAboutPage: textsAbout.pt.paragraph,
                 }
             },
         },
