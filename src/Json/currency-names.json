@@ -89,9 +89,6 @@
     "CHF": {
         "name": "Swiss Franc - Franken"
     },
-    "CLF": {
-        "name": "Chilean Unit Of Account (UF) - Unidad de Fomento (UF)"
-    },
     "CLP": {
         "name": "Chilean Peso - Peso Chileno"
     },
@@ -454,9 +451,6 @@
     },
     "UZS": {
         "name": "Uzbekistan Som - Soʻm"
-    },
-    "VEF": {
-        "name": "Venezuelan Bolívar Fuerte - Bolívar Fuerte"
     },
     "VES": {
         "name": "Venezuelan Bolívar - Bolívar"
