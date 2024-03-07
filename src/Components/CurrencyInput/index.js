@@ -62,10 +62,13 @@ function getCurrencySymbol(selectedCurrencyJson) {
 
 async function convertCurrency(selectedCurrency1, selectedCurrency2, columnIndex) {
     let currencyValue = 0;
+    let selectedCurrency1LowerCase = selectedCurrency1.value.toLowerCase();
+    let selectedCurrency2LowerCase = selectedCurrency2.value.toLowerCase();
     if (selectedCurrency1 && selectedCurrency2 && columnIndex === 2) {
-        await fetch(`https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/latest/currencies/${selectedCurrency1.value.toLowerCase()}/${selectedCurrency2.value.toLowerCase()}.json`)
+        await fetch(`https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/${selectedCurrency1.value.toLowerCase()}.json`)
             .then(resp => resp.json())
-            .then(json => Object.entries(json)[1][1])
+            .then(json => json[selectedCurrency1LowerCase])
+            .then(json => json[selectedCurrency2LowerCase])
             .then(val => currencyValue = val)
             .catch(() => currencyValue = 0);
     }
